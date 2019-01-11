@@ -12,6 +12,10 @@
 		80391B5421E5488800FCE299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80391B5221E5488800FCE299 /* Main.storyboard */; };
 		80391B5621E5488800FCE299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80391B5521E5488800FCE299 /* Assets.xcassets */; };
 		80391B5921E5488800FCE299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80391B5721E5488800FCE299 /* LaunchScreen.storyboard */; };
+		80391B6121E549DC00FCE299 /* Contacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80391B6021E549DC00FCE299 /* Contacto.swift */; };
+		80391B6321E54D5F00FCE299 /* AddContacto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80391B6221E54D5F00FCE299 /* AddContacto.swift */; };
+		803A608821E57FF20077E892 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A608721E57FF20077E892 /* CustomCell.swift */; };
+		803A608A21E63DC30077E892 /* DetalleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803A608921E63DC30077E892 /* DetalleVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,10 @@
 		80391B5521E5488800FCE299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		80391B5821E5488800FCE299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		80391B5A21E5488800FCE299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80391B6021E549DC00FCE299 /* Contacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contacto.swift; sourceTree = "<group>"; };
+		80391B6221E54D5F00FCE299 /* AddContacto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContacto.swift; sourceTree = "<group>"; };
+		803A608721E57FF20077E892 /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
+		803A608921E63DC30077E892 /* DetalleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetalleVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +68,10 @@
 				80391B5521E5488800FCE299 /* Assets.xcassets */,
 				80391B5721E5488800FCE299 /* LaunchScreen.storyboard */,
 				80391B5A21E5488800FCE299 /* Info.plist */,
+				80391B6021E549DC00FCE299 /* Contacto.swift */,
+				80391B6221E54D5F00FCE299 /* AddContacto.swift */,
+				803A608721E57FF20077E892 /* CustomCell.swift */,
+				803A608921E63DC30077E892 /* DetalleVC.swift */,
 			);
 			path = actividad2;
 			sourceTree = "<group>";
@@ -136,7 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80391B6321E54D5F00FCE299 /* AddContacto.swift in Sources */,
 				80391B5121E5488800FCE299 /* ViewController.swift in Sources */,
+				803A608821E57FF20077E892 /* CustomCell.swift in Sources */,
+				80391B6121E549DC00FCE299 /* Contacto.swift in Sources */,
+				803A608A21E63DC30077E892 /* DetalleVC.swift in Sources */,
 				80391B4F21E5488800FCE299 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -211,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -262,7 +278,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
